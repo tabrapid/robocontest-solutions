@@ -22,6 +22,14 @@ using vld = vector<long double>;
 
 #define rep(i, a, b) for (int i = (a); i < (b); ++i)
 
+// funksiyalar
+
+void pvi (std::vector<int> &vc) {
+    for (int x : vc) {
+        cout << x << ' ' ;
+    }
+    cout << '\n' ;
+}
 
 int main() {
     // fast i/o
@@ -29,6 +37,9 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
+    std::vector<int> sonlar;
+    sonlar.push_back(1);
+    sonlar.push_back(30);
 
 
     return 0;
