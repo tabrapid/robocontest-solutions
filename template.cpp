@@ -15,7 +15,7 @@ using vld = vector<long double>;
 #define ff first
 #define ss second
 #define all(x) (x).begin(), (x).end()
-#define rall(x) (x).rbegin, (x).rall()
+#define rall(x) (x).rbegin, (x).rend()
 #define sz(x) (int)(x).size()
 
 // sikllar
